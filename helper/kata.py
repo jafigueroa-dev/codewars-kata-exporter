@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-form re import sub
+from re import sub
 
 class Kata:
     def __init__(self, soup):
