@@ -1,5 +1,6 @@
 # Codewars Kata Exporter
 
+Forked to fix bugs and issues
 ___
 ## General Information
 
