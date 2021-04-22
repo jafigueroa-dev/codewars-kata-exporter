@@ -45,7 +45,7 @@ First off, you need to have [Python 3](https://www.python.org/download/releases/
 
 `$ pip3 install -r requirements.txt`
 
-To use Selenium you need to install a webdriver to interface with a specific browser. The browser I have chosen to use in the script was Chrome, thus you can download it [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+To use Selenium you need to install a webdriver to interface with a specific browser. The browser I have chosen to use in the script was Chrome, make sure to download and install it. You can download the webdriver here [here](https://sites.google.com/a/chromium.org/chromedriver/downloads). To add the webdriver to your PATH, follow the guide [here](https://zwbetz.com/download-chromedriver-binary-and-add-to-your-path-for-automated-functional-testing/).
 
 ___
 ## How to run
