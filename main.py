@@ -32,4 +32,5 @@ for i, kata in enumerate(katas):
             fout.write(source_code)
 
         with open(os.path.join(file_dir, 'README.md'), 'w') as fout:
+            fout.write(f"[{kata.title}](https://www.codewars.com/kata/{kata.kata_id})\n\n")
             fout.write(kata_description)
