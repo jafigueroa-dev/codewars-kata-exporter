@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-
+form re import sub
 
 class Kata:
     def __init__(self, soup):
@@ -22,7 +22,7 @@ class Kata:
 
     @property
     def title(self):
-        title = self.soup.find('div', {'class': 'item-title'}).find('a').text
+        title = sub('[^a-zA-Z\d ]', '', self.soup.find('div', {'class': 'item-title'}).find('a').text.strip())
         return title.replace(' ', '-').lower()
 
     @property
